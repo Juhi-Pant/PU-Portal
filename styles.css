@@ -1,0 +1,235 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	margin: 0;
+	overscroll-behavior: none;
+	/* background-image:url("pu.jpeg") ; */
+	/* background-repeat: no-repeat; 
+	background-size: cover; */
+	background-color: #F1F1F1;
+}
+.background_area
+{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    filter: blur(3px);
+    overflow: hidden;
+    overscroll-behavior: auto;
+}	
+.center_content
+{
+    position: absolute;
+    top: 0vh;
+    left:25vw;
+    
+}
+.input_text_line
+{
+    width: 80%;
+}
+.row
+{
+
+	margin:auto;
+/*	border-radius: 0;*/
+	width: 50vw;
+	height: 60vh;
+	margin-top: 15vh;
+/*	margin-bottom: 10%;*/
+
+
+}
+.card
+{
+	border-radius: 15px 15px 15px 15px;
+	position: relative;
+	top: 150px;
+	left: 200px;
+}
+
+.heading
+{
+	color: black;
+	text-align: center;
+	font-size: 1.5rem;
+/*	margin-bottom: 20px;*/
+	margin-top: 20px;
+	color: #98041E;
+	font-weight: bold;
+
+}
+#userID
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	border-color: black;
+	background-color: #F3ABAB;
+	border: 0;
+	padding-left:90px;
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+#password
+{
+	margin-top:0px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	border-color: black;
+	background-color: #F3ABAB;
+	border: 0;
+	padding-left:90px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/*.pu-logo
+{
+	
+	
+}*/
+.pu-logo
+{
+	
+    /* margin-bottom: 5px; */
+	/* border-right:; */
+}
+.pu-logo-img
+{
+	position: relative;
+    bottom: 90px;
+	left: 575px;
+    height: 200px;
+    width: 200px;
+/*    height: 50%;*/
+}
+.card-data
+{
+	border-left: 5px solid-black;
+	position: relative;
+/*	right:30px;*/
+	margin:0;
+}
+.login-button
+{
+margin-bottom: 30px;	
+background-color:#BE2A38;
+color:#fff;
+padding-left:25px;
+padding-right:25px;
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 1rem;
+border-radius: 10px;
+border: 0;
+font-weight: bold;
+}
+.phd
+{
+	position: relative;
+	bottom: 90px;
+	left: 570px;
+	font-weight: bold;
+	font-size: 1.3rem;
+	color: #BE2A38;
+}
+::placeholder
+{
+	color:#696767;
+	text-align: left;
+}
+input 
+{
+    text-align: start;
+}
+::-webkit-input-placeholder 
+{
+    text-align: start;
+}
+:-moz-placeholder 
+{
+    text-align: start;
+}
+/* responsiveness code for medium screen and small screen */
+@media screen and (max-width:990px){
+.login-button
+{
+margin-bottom: 30px;	
+background-color:#BE2A38;
+color:#fff;
+padding-left:20px;
+padding-right:20px;
+padding-top: 6px;
+padding-bottom: 6px;
+font-size: 1rem;
+border-radius: 6px;
+border: 0;
+font-weight: bold;
+}
+    .pu-logo
+{
+	/* background-color: white; */
+	border-radius: 5%;
+    margin-bottom: 10px;
+	padding-bottom: 10px;
+	/* border-right:; */
+}
+	.heading
+	{
+		color: black;
+		text-align: center;
+		font-size: 1.5rem;
+		/* margin-bottom: px; */
+		margin-top: 5px;
+		color: #98041E;
+		font-weight: bold;
+	
+	}
+	}
+@media screen and (max-width:900px){
+    .pu-logo
+{
+	/* background-color: white; */
+	border-radius: 5%;
+    margin-bottom: 10px;
+	/* border-right:; */
+}
+.heading
+{
+	color: black;
+	text-align: center;
+	font-size: 1.5rem;
+	/* margin-bottom: px; */
+	margin-top: 5px;
+	color: #98041E;
+	font-weight: bold;
+	position: relative;
+	bottom: 100px;
+}
+.register_button
+{
+margin-bottom: 3px;	
+background-color:#BE2A38;
+color:#fff;
+padding-left:10px;
+padding-right:10px;
+padding-top: 1px;
+padding-bottom: 3px;
+font-size: 1rem;
+border-radius: 10px;
+border: 0;
+font-weight: bold;
+}
+
+}
+.bImage{
+    position: absolute;
+    height: 100%;
+	width: 50%;
+}
